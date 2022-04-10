@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: hsl(218, 28%, 13%)
+}
+
+header {
+    margin: 20px 20px;
+    height: 80px;
+}
+
+header .container-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container-header .navbar ul {
+    list-style: none;
+    display: flex;  
+}
+
+header .container-header .navbar ul li{
+    margin: 20px;
+}
+
+header .container-header .navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header .container-header .navbar ul li a:hover {
+color: hsl(176, 68%, 64%)
+}
+
+section .content-section{
+    margin-top: 4   0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+section .content-section img {
+    width: 800px;
+}
+
+section .content-section h1 {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+section .content-section span {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+section .content-section button {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(198, 60%, 50%);
+    color: #fff;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+section .item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+section .itens {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section .itens img {
+    width: 80px;
+} 
+
+section .itens strong {
+    margin-top: 16px;
+    font-size: 18px;
+}
+
+section .itens span {
+    margin-top: 16px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+section .container {
+    margin: 100px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section .container .image img {
+    width: 500px;
+    margin: 32px;
+}
+
+section .container .content {
+    color: #fff;
+}
+
+section .container .content h2 {
+    font-size: 24px;
+}
+
+section .container .content p {
+    display: flex;
+    font-size: 16px;
+    margin-top: 24px;
+    font-weight: 300;
+}
+
+section .container .content a,img {
+    margin-top: 24px;
+    color: hsl(198, 60%, 50%);
+}
+
+section .container .content a:hover {
+    color: hsl(176, 68%, 64%)
+}
+
+section .profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-direction: row;
+}
+
+section .profile .perfil {
+    width: 300px;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+}
+
+
